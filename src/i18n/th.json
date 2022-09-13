@@ -32,5 +32,21 @@
     "footer": {
         "title": "ยินดีต้อนรับสู่ Ruai99",
         "description": "และเพลิดเพลินไปกับประสบการณ์การเล่นเกมที่ดีที่สุด เมื่อสมัครสมาชิกรับทันทีข่าวสารโปรโมชั่นต่างๆ"
+    },
+    "card":{
+        "systemCard":{
+            "IOS":{
+                "primaryBtnText":"วิธีติดตั้ง",
+                "secondaryBtnText":"ดาวน์โหลด เลย"
+            },
+            "Android":{
+                "primaryBtnText":"วิธีติดตั้ง",
+                "secondaryBtnText":"ดาวน์โหลด เลย",
+                "slogan":"500,000+ Downloaded"
+            },
+            "PWA":{
+                "secondaryBtnText":"เล่น เลย"
+            }
+        }
     }
 }

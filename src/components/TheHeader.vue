@@ -1,5 +1,5 @@
 <template>
-    <nav class="w-full py-4">
+    <nav class="w-full py-4 z-[2]">
         <ul class="the-header">
             <li><router-link to="/HowToPage">{{$t('header.howToUse')}}</router-link></li>
             <li><router-link to="/DownloadPage">{{$t('header.download')}}</router-link></li>
