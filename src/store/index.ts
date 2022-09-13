@@ -1,10 +1,10 @@
 import { createStore } from "vuex";
-import lobby from "./lobby";
+import lang from "./lang";
 export default createStore({
   state: {},
   mutations: {},
   actions: {},
   modules: {
-    lobby,
+    lang,
   },
 });
