@@ -1,8 +1,9 @@
 import { ref } from 'vue'
+import { HomePageIndecator } from '@/types/gloable'
+const current = ref<HomePageIndecator>(HomePageIndecator.SECTION1)
 export default function useIndecator() {
-    const current = ref(1)
-    function switchIndecator(num:number) {
-        current.value = num
+    function switchIndecator(indecator:HomePageIndecator) {
+        current.value = indecator
     }
     return {
         //data

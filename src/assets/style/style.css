@@ -7,12 +7,29 @@
     height: 0px;
 }
 /* layOut */
+html{
+    scroll-behavior: smooth;
+}
 .page-container {
     @apply h-screen text-center bg-black;
 }
 /* Design System */
+/* font */
 .title-primary {
     @apply text-white font-[700] text-[40px] drop-shadow-title;
+}
+.title-secondary {
+    @apply text-white font-[700] text-[40px];
+}
+.title-tertiary {
+    @apply text-white font-[700] text-[30px];
+}
+.description {
+    @apply text-white font-[400] text-[12px];
+}
+/* gradient */
+.bg-gradient-1 {
+    background: linear-gradient(180deg, #062746 0%, #46BCFF 100%);
 }
 
 /* components */
@@ -58,6 +75,9 @@
 }
 
 /* util */
+.flex-xy-center {
+    @apply flex flex-col justify-center items-center
+}
 .absolute-x-center {
     @apply left-1/2 translate-x-[-50%];
 }

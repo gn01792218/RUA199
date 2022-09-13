@@ -8,13 +8,13 @@
             </p>
         </div>
         <div class="absolute flex flex-col absolute-x-center bottom-[10%]">
-            <span class="text-white text-xs text-center">{{systemCardObj.description}}</span>
+            <span class="description text-center">{{systemCardObj.description}}</span>
             <div class="flex mt-5">
                 <button v-if="systemCardObj.primaryBtnText" class="primary-btn mr-3">{{systemCardObj.primaryBtnText}}</button>
                 <button v-if="systemCardObj.secondaryBtnText" class="secondary-btn">{{systemCardObj.secondaryBtnText}}</button>
             </div>
         </div>
-        <span class="absolute absolute-x-center text-white text-xs bottom-[3%]" v-if="systemCardObj.slogan">{{systemCardObj.slogan}}</span>
+        <span class="absolute absolute-x-center description bottom-[3%]" v-if="systemCardObj.slogan">{{systemCardObj.slogan}}</span>
     </div>
 </template>
   
