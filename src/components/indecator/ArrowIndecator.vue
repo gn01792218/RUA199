@@ -1,5 +1,5 @@
 <template>
-    <div @click="switchIndecator(indecateTo)">
+    <div>
         <a class="w-[20px] h-[11px] block cursor-pointer" v-if="indecateTo === HomePageIndecator.SECTION1" :href="HomePageIndecator.SECTION1">
             <img class="w-full" :src="getAssetsFileURL('images/Polygon 1.png')" alt="arrow">
         </a>
@@ -19,8 +19,6 @@
 <script setup lang="ts">
 import { HomePageIndecator } from '@/types/gloable'
 import useutil from '@/composable/util/useUtil';
-import useIndecator from '@/composable/indecator/useIndecator'
 const { getAssetsFileURL } = useutil()
-const { switchIndecator} = useIndecator()
 defineProps<{ indecateTo: HomePageIndecator }>();
 </script>
