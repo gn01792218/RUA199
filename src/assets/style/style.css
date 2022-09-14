@@ -24,6 +24,9 @@ html{
 .title-tertiary {
     @apply font-[700] text-[30px];
 }
+.title-small {
+    @apply font-[700] text-[18px];
+}
 .description {
     @apply font-[400] text-[12px];
 }
