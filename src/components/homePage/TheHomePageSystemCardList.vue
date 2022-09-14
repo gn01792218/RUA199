@@ -42,7 +42,3 @@
 import SystemCard from "@/components/card/SystemCard.vue"
 
 </script>
-  
-<style>
-
-</style>

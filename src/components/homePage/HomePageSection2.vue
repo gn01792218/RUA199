@@ -10,6 +10,7 @@
 </template>
     
 <script setup lang="ts">
+    import ArrowIndecator from '@/components/indecator/ArrowIndecator.vue'
 import { HomePageIndecator } from '@/types/gloable'
 import useUtil from '@/composable/util/useUtil'
 const { getAssetsFileURL } = useUtil()

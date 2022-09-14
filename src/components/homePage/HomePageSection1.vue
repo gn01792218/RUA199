@@ -10,12 +10,13 @@
         <img class="max-w-[475px] h-[476px] absolute bottom-0 right-0"
             :src="getAssetsFileURL('images/dream-of-macau_casino lady4 1.png')" alt="casino lady">
         <ArrowIndecator class="absolute bottom-[5%] left-1/2 translate-x-[-50%]"
-            :indecate-to="HomePageIndecator.SECTION2" />
+            :indecate-to="HomePageIndecator.SECTION2"/>
     </section>
 </template>
     
 <script setup lang="ts">
-import TheHomePageSystemCardList from '@/components/TheHomePageSystemCardList.vue' //可以拿掉
+import TheHomePageSystemCardList from '@/components/homePage/TheHomePageSystemCardList.vue'
+import ArrowIndecator from '@/components/indecator/ArrowIndecator.vue'
 import { HomePageIndecator } from '@/types/gloable'
 import useUtil from '@/composable/util/useUtil'
 const { getAssetsFileURL } = useUtil()

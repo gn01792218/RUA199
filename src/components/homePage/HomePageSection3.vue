@@ -24,10 +24,10 @@
         <ArrowIndecator class="absolute bottom-[5%] left-1/2 translate-x-[-50%]"
             :indecate-to="HomePageIndecator.SECTION4" />
     </section>
-
 </template>
   
 <script setup lang="ts">
+    import ArrowIndecator from '@/components/indecator/ArrowIndecator.vue'
 import { HomePageIndecator } from '@/types/gloable'
 import useUtil from '@/composable/util/useUtil'
 const { getAssetsFileURL } = useUtil()
