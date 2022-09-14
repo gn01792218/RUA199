@@ -13,3 +13,9 @@ export enum HomePageIndecator {
     SECTION3 = "#home-sction3",
     SECTION4 = "#home-sction4"
 }
+export enum Direction {
+    LEFT,
+    RIGHT,
+    TOP,
+    BUTTOM
+}

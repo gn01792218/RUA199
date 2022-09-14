@@ -32,7 +32,7 @@ html{
 }
 /* gradient */
 .bg-gradient-1 {
-    background: linear-gradient(180deg, #062746 0%, #46BCFF 100%);
+    background: linear-gradient(180deg, #062746b3 0%, #46bcff80 100%);
 }
 /* components */
 /* Btn */
@@ -69,10 +69,7 @@ html{
 }
 /* TheHeader */
 .the-header {
-    @apply h-[90px] bg-transparent flex justify-center items-center;
-}
-.the-header li {
-    @apply mr-14
+    @apply max-w-[1000px] h-[90px] mx-auto bg-transparent flex justify-around items-center;
 }
 /* cards */
 .system-card {
