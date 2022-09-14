@@ -16,7 +16,7 @@ html{
 /* Design System */
 /* font */
 .title-primary {
-    @apply font-[700] text-[40px] drop-shadow-title;
+    @apply font-[700] text-[40px];
 }
 .title-secondary {
     @apply font-[700] text-[40px];

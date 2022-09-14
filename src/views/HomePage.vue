@@ -1,7 +1,7 @@
 <template>
   <section id="home-sction1" class="w-full h-[900px] relative">
     <div class="absolute absolute-x-center absolute-y-center z-[1] flex-xy-center">
-      <h1 class="title-primary">{{$t('homePage.section1.title')}}</h1>
+      <h1 class="title-primary drop-shadow-title">{{$t('homePage.section1.title')}}</h1>
       <TheHomePageSystemCardList/>
     </div>
     <img class="w-full h-full absolute top-0 left-0" :src="getAssetsFileURL('images/lobby-bg 1.png')" alt="背景圖">
@@ -15,9 +15,9 @@
   </section>
   <GradientDivider :to="Direction.RIGHT"/>
   <section id="home-sction2" class="flex-xy-center py-40 relative">
-    <h1 class="title-primary">{{$t('homePage.section2.title')}}</h1>
-    <img :src="getAssetsFileURL('images/welcome 1.png')" alt="welcome">
-    <span class="max-w-[360px] text-center mt-20">{{$t('homePage.section2.description')}}</span>
+    <h1 class="title-tertiary w-[300px] text-center sm:w-auto sm:text-left drop-shadow-title sm:title-primary ">{{$t('homePage.section2.title')}}</h1>
+    <img class="w-[330px] sm:w-auto" :src="getAssetsFileURL('images/welcome 1.png')" alt="welcome">
+    <span class="w-[330px] sm:max-w-[360px] text-center mt-20">{{$t('homePage.section2.description')}}</span>
     <ArrowIndecator class="absolute bottom-[5%] left-1/2 translate-x-[-50%]"
       :indecate-to = "HomePageIndecator.SECTION3"
     />
@@ -26,19 +26,21 @@
   <section id="home-sction3" class="flex-xy-center py-48 relative">
     <div class="max-w-[960px]">
       <article class="w-full relative mb-20">
-        <img class="absolute left-0 bottom-[-25%] z-[1]" :src="getAssetsFileURL('images/amazing-games 1.png')" alt="amazing-game">
-        <div class="h-[143px] w-[60%] ml-auto bg-gradient-1 rounded-[5px] flex-xy-center">
+        <img class="absolute absolute-x-center w-[310px] top-[-120%] sm:w-auto sm:translate-x-[0px] sm:left-0 bottom-[-25%] z-[1]" :src="getAssetsFileURL('images/amazing-games 1.png')" alt="amazing-game">
+        <div class="sm:h-[143px] sm:w-[60%] ml-auto bg-gradient-1 rounded-[5px] flex-xy-center py-6">
           <h1 class="title-tertiary text-center">{{$t('homePage.section3.title')}}</h1>
           <p class="w-1/2 description text-left">{{$t('homePage.section3.description')}}</p>
         </div>
       </article>
       <article class="w-full relative">
-        <p class="title-secondary">Over <span class="text-[50px]">2,000+</span>Games</p>
-        <div class="h-[143px] bg-gradient-1 rounded-[5px] flex justify-start items-center px-10">
-          <p class="max-w-[355px] description mr-2">{{$t('homePage.section3.description1')}}</p>
-          <p class="max-w-[355px] description">{{$t('homePage.section3.description2')}}</p>
+        <p class="title-secondary hidden sm:block">Over <span class="text-[50px]">2,000+</span>Games</p>
+        <div class="sm:h-[143px] bg-gradient-1 rounded-[5px] pt-20 pb-6 px-10 sm:pt-6">
+          <div class="flex justify-start items-center sm:pr-32">
+            <p class="max-w-[355px] description mr-2">{{$t('homePage.section3.description1')}}</p>
+            <p class="max-w-[355px] description">{{$t('homePage.section3.description2')}}</p>
+          </div>
         </div>
-        <img class="absolute right-0 top-0" :src="getAssetsFileURL('images/caishen-a2 1.png')" alt="money-god">
+        <img class="absolute w-[125px] bottom-[85%] right-[50%] translate-x-[50%] sm:w-auto sm:right-[8%] sm:bottom-[10%]" :src="getAssetsFileURL('images/caishen-a2 1.png')" alt="money-god">
       </article>
     </div>
     <ArrowIndecator class="absolute bottom-[5%] left-1/2 translate-x-[-50%]"
