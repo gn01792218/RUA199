@@ -75,6 +75,17 @@ html{
 .system-card {
     @apply w-[304px] h-[420px];
 }
+/* transition */
+.headerFade-enter-active,
+.headerFade-leave-active {
+    transition: opacity 0.5s ease;
+}
+.headerFade-enter-from{
+    transform: translateX(0);
+}
+.headerFade-leave-to {
+    opacity: 0;
+}
 
 /* util */
 .flex-xy-center {
