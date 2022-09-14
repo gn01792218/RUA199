@@ -48,16 +48,16 @@
     />
   </section>
   <div class="divider-line-to-right"></div>
-  <section id="home-sction2" class="flex-xy-center bg-black py-40 relative">
+  <section id="home-sction2" class="flex-xy-center py-40 relative">
     <h1 class="title-primary">{{$t('homePage.section2.title')}}</h1>
     <img :src="getAssetsFileURL('images/welcome 1.png')" alt="welcome">
-    <span class="w-[360px] text-white text-center mt-20">{{$t('homePage.section2.description')}}</span>
+    <span class="w-[360px] text-center mt-20">{{$t('homePage.section2.description')}}</span>
     <ArrowIndecator class="absolute bottom-[5%] left-1/2 translate-x-[-50%]"
       :indecate-to = "HomePageIndecator.SECTION3"
     />
   </section>
   <div class="divider-line-to-left"></div>
-  <section id="home-sction3" class="flex-xy-center bg-black py-48 relative">
+  <section id="home-sction3" class="flex-xy-center py-48 relative">
     <div class="w-[960px]">
       <article class="w-full relative mb-20">
         <img class="absolute left-0 bottom-[-25%]" :src="getAssetsFileURL('images/amazing-games 1.png')" alt="amazing-game">
@@ -67,7 +67,7 @@
         </div>
       </article>
       <article class="w-full relative">
-        <h1 class="title-secondary">Over <span class="text-[50px]">2,000+</span>Games</h1>
+        <p class="title-secondary">Over <span class="text-[50px]">2,000+</span>Games</p>
         <div class="h-[143px] bg-gradient-1 rounded-[5px] flex justify-start items-center px-10">
           <p class="max-w-[355px] description mr-2">{{$t('homePage.section3.description1')}}</p>
           <p class="max-w-[355px] description">{{$t('homePage.section3.description2')}}</p>
@@ -80,8 +80,23 @@
     />
   </section>
   <div class="divider-line-to-right"></div>
-  <section id="home-sction4" class="h-[1000px] bg-black text-white">
-    
+  <section id="home-sction4" class="flex-xy-center p-20">
+    <p class="title-secondary"><span class="text-[50px]">500,000+</span>Downloaded</p>
+    <div class="w-[960px] relative mt-10">
+      <div class="divider-line-blue"></div>
+      <img class="absolute absolute-y-center right-0" :src="getAssetsFileURL('images/ia_100000469 1.png')" alt="game">
+      <article class="w-1/2 py-10">
+        <p class="description pb-5">{{$t('homePage.section4.description1')}}</p>
+        <p class="description text-primary pb-10">{{$t('homePage.section4.acent')}}</p>
+        <p class="description">{{$t('homePage.section4.description2')}}</p>
+      </article>
+      <div class="w-[58%]"><div class="divider-line-blue"></div></div>
+      <article class="w-1/2 py-10">
+        <h1 class="title-tertiary pb-5">{{$t('homePage.section4.title')}}</h1>
+        <p class="description">{{$t('homePage.section4.description3')}}</p>
+      </article>
+      <div class="divider-line-blue"></div>
+    </div>
   </section>
   <div class="divider-line-to-left"></div>
 </template>

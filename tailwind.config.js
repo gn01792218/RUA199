@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: '#46BDFD',
+      },
       dropShadow: {
         'title':'0px 4px 4px rgba(49,209,231,0.77)'
       }

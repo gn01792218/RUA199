@@ -16,22 +16,21 @@ html{
 /* Design System */
 /* font */
 .title-primary {
-    @apply text-white font-[700] text-[40px] drop-shadow-title;
+    @apply font-[700] text-[40px] drop-shadow-title;
 }
 .title-secondary {
-    @apply text-white font-[700] text-[40px];
+    @apply font-[700] text-[40px];
 }
 .title-tertiary {
-    @apply text-white font-[700] text-[30px];
+    @apply font-[700] text-[30px];
 }
 .description {
-    @apply text-white font-[400] text-[12px];
+    @apply font-[400] text-[12px];
 }
 /* gradient */
 .bg-gradient-1 {
     background: linear-gradient(180deg, #062746 0%, #46BCFF 100%);
 }
-
 /* components */
 /* Btn */
 .base-btn {
@@ -62,9 +61,12 @@ html{
     background: linear-gradient(270deg, #FFE603 0%, #FFFFFF 23.96%, #FFE603 57.81%, #000000 81.25%, #000000 100%);
     @apply divider-line-base;
 }
+.divider-line-blue {
+    @apply bg-[#46BDFF] w-full h-[1px];
+}
 /* TheHeader */
 .the-header {
-    @apply h-[90px] bg-transparent text-white flex justify-center items-center;
+    @apply h-[90px] bg-transparent flex justify-center items-center;
 }
 .the-header li {
     @apply mr-14
