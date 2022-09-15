@@ -4,7 +4,9 @@
     <TheHeaderForMobile />
     <router-view />
     <TheFooter />
-    <TheMobilePanel class="fixed top-0" />
+    <div class="fixed bottom-0 z-[2]">
+      <TheMobilePanel />
+    </div>
   </div>
 </template>
 
