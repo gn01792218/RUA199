@@ -4,9 +4,7 @@
 
 /* gloable */
 ::-webkit-scrollbar {
-    width: 0px;
-    /*竖向滚动条的宽度*/
-    height: 0px;
+    @apply w-0 h-0
 }
 
 /* layOut */
@@ -19,31 +17,49 @@ html {
 }
 
 /* Design System */
-/* font */
-.title-primary {
-    @apply font-[700] text-[40px];
-}
+@layer utilities {
+    @variants responsive {
+        /* font */
+        .title-primary {
+            @apply font-[700] text-[40px];
+        }
 
-.title-secondary {
-    @apply font-[700] text-[40px];
-}
+        .title-secondary {
+            @apply font-[700] text-[40px];
+        }
 
-.title-tertiary {
-    @apply font-[700] text-[30px];
-}
+        .title-tertiary {
+            @apply font-[700] text-[30px];
+        }
 
-.title-small {
-    @apply font-[700] text-[18px];
-}
+        .title-small {
+            @apply font-[700] text-[18px];
+        }
 
-.description {
-    @apply font-[400] text-[12px];
+        .description {
+            @apply font-[400] text-[12px];
+        }
+
+        /* util */
+        .flex-xy-center {
+            @apply flex flex-col justify-center items-center
+        }
+
+        .absolute-x-center {
+            @apply left-1/2 translate-x-[-50%];
+        }
+
+        .absolute-y-center {
+            @apply top-1/2 translate-y-[-50%];
+        }
+    }
 }
 
 /* gradient */
 .bg-gradient-1 {
     background: linear-gradient(180deg, #062746b3 0%, #46bcff80 100%);
 }
+
 .bg-gradient-2 {
     background: linear-gradient(360deg, #040e28e6 0%, #3287b9e6 97.92%, #65c6ffe6 100%);
 }
@@ -95,11 +111,6 @@ html {
     @apply max-w-[1000px] h-[90px] mx-auto bg-transparent flex justify-around items-center;
 }
 
-/* cards */
-.system-card {
-    @apply w-[304px] h-[420px];
-}
-
 /* transition */
 .headerFade-enter-active,
 .headerFade-leave-active {
@@ -109,17 +120,4 @@ html {
 .headerFade-enter-from,
 .headerFade-leave-to {
     @apply opacity-0 translate-x-[500px];
-}
-
-/* util */
-.flex-xy-center {
-    @apply flex flex-col justify-center items-center
-}
-
-.absolute-x-center {
-    @apply left-1/2 translate-x-[-50%];
-}
-
-.absolute-y-center {
-    @apply top-1/2 translate-y-[-50%];
 }

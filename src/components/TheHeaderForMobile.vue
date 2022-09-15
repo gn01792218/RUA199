@@ -1,5 +1,5 @@
 <template>
-    <div class="sm:hidden w-full py-10 z-[2] relative flex flex-xy-center">
+    <div class="md:hidden w-full py-10 z-[2] relative flex flex-xy-center">
         <RouteToHome :img-path="getAssetsFileURL('images/header-logo 1.png')" />
         <div class="w-[25px] h-[11px] border-y-2 absolute right-[10%]" @click="handleHeaderPanel"></div>
         <transition name="headerFade">

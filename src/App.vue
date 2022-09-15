@@ -5,7 +5,7 @@
     <router-view />
     <TheFooter/>
     <div class="w-screen fixed top-0 h-screen flex flex-col justify-end">
-      <TheFooterPanel/>
+      <TheMobilePanel/>
     </div>
   </div>
 </template>
@@ -14,5 +14,5 @@
 import TheHeader from '@/components/TheHeader.vue'
 import TheHeaderForMobile from '@/components/TheHeaderForMobile.vue'
 import TheFooter from '@/components/TheFooter.vue'
-import TheFooterPanel from '@/components/TheFooterPanel.vue'
+import TheMobilePanel from '@/components/TheMobilePanel.vue'
 </script>

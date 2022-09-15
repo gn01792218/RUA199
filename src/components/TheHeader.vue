@@ -1,5 +1,5 @@
 <template>
-    <nav class="hidden sm:block w-full py-4 z-[2]">
+    <nav class="hidden md:block w-full py-4 z-[2]">
         <ul class="the-header">
             <li>
                 <router-link to="/HowToPage">{{$t('header.howToUse')}}</router-link>

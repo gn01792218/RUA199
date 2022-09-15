@@ -13,7 +13,7 @@ export default function useIndecator() {
                 }
             })
         },{
-            threshold:0.2,
+            threshold:0.5,
         })
         section2Observer.observe(target)
     }
