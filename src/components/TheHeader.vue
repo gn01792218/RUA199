@@ -11,7 +11,9 @@
                 <router-link to="/PromotionsPage">{{$t('header.promotion')}}</router-link>
             </li>
             <li>
-                <TheLogo />
+                <RouteToHome 
+                :img-path="getAssetsFileURL('images/header-logo 1.png')"
+                />
             </li>
             <li>
                 <router-link to="/VipPage">{{$t('header.VIP')}}</router-link>
@@ -27,5 +29,7 @@
 </template>
   
 <script setup lang="ts">
-import TheLogo from '@/components/TheLogo.vue'
+import RouteToHome from '@/components/RouteToHome.vue'
+import useutil from '@/composable/util/useUtil';
+    const { getAssetsFileURL } = useutil()
 </script>

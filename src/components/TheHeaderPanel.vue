@@ -23,14 +23,18 @@
                 <router-link to="/ContactPage">{{$t('header.support')}}</router-link>
             </li>
         </ul>
-        <TheLogo />
+        <RouteToHome 
+        :img-path="getAssetsFileURL('images/header-logo 1.png')"
+        />
     </div>
 </template>
   
 <script setup lang="ts">
-import TheLogo from '@/components/TheLogo.vue'
+import RouteToHome from '@/components/RouteToHome.vue'
 import CloseButtonX from '@/components/CloseButtonX.vue'
 import useHeaderPanel from '@/composable/header/useHeaderPanel'
+import useutil from '@/composable/util/useUtil';
+    const { getAssetsFileURL } = useutil()
 const { show, handleHeaderPanel } = useHeaderPanel()
 
 </script>

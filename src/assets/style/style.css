@@ -44,6 +44,9 @@ html {
 .bg-gradient-1 {
     background: linear-gradient(180deg, #062746b3 0%, #46bcff80 100%);
 }
+.bg-gradient-2 {
+    background: linear-gradient(360deg, #040e28e6 0%, #3287b9e6 97.92%, #65c6ffe6 100%);
+}
 
 /* components */
 /* Btn */

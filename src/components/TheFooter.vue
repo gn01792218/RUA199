@@ -2,7 +2,9 @@
     <div class="w-full flex-xy-center py-10">
         <div class="w-[320px] sm:w-[640px] lg:w-[950px] flex flex-col sm:flex-row items-center">
             <div class="flex flex-col sm:flex-row items-center">
-                <TheLogo class="mr-5 mb-5 sm:mb-0"/>
+                <RouteToHome class="mr-5 mb-5 sm:mb-0"
+                    :img-path="getAssetsFileURL('images/header-logo 1.png')"
+                 />
                 <article class="text-center sm:text-left max-w-[265px]">
                     <h1 class="title-small pb-3">{{$t('footer.title')}}</h1>
                     <p class="description">{{$t('footer.description')}}</p>
@@ -19,7 +21,7 @@
 </template>
   
 <script setup lang="ts">
-    import TheLogo from '@/components/TheLogo.vue'
+    import RouteToHome from '@/components/RouteToHome.vue'
     import useUtil from '@/composable/util/useUtil'
     const { getAssetsFileURL } = useUtil()
 </script>
