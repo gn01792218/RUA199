@@ -1,12 +1,10 @@
 <template>
   <div class="bg-black text-white">
     <TheHeader class="fixed" />
-    <TheHeaderForMobile/>
+    <TheHeaderForMobile />
     <router-view />
-    <TheFooter/>
-    <div class="w-screen fixed top-0 h-screen flex flex-col justify-end">
-      <TheMobilePanel/>
-    </div>
+    <TheFooter />
+    <TheMobilePanel class="fixed top-0" />
   </div>
 </template>
 

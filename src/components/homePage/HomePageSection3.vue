@@ -1,7 +1,7 @@
 <template>
-    <section id="home-sction3" class="flex-xy-center py-48 relative">
+    <section id="home-sction3" class="flex-xy-center py-20 relative">
         <div class="max-w-[960px]">
-            <article class="w-full relative mb-20">
+            <article class="w-full relative mt-36 mb-20">
                 <img class="absolute absolute-x-center w-[310px] top-[-120%] sm:w-auto sm:translate-x-[0px] sm:left-0 bottom-[-25%]"
                     :src="getAssetsFileURL('images/amazing-games 1.png')" alt="amazing-game">
                 <div class="sm:h-[143px] sm:w-[60%] ml-auto bg-gradient-1 rounded-[5px] flex-xy-center py-6">
@@ -21,7 +21,7 @@
                     :src="getAssetsFileURL('images/caishen-a2 1.png')" alt="money-god">
             </article>
         </div>
-        <ArrowIndecator class="absolute bottom-[5%] left-1/2 translate-x-[-50%]"
+        <ArrowIndecator class="mt-5"
             :indecate-to="HomePageIndecator.SECTION4" />
     </section>
 </template>
