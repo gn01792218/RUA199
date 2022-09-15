@@ -1,7 +1,7 @@
 <template>
     <section id="home-sction1" class="w-full h-[900px] relative">
         <div class="absolute absolute-x-center absolute-y-center z-[1] flex-xy-center">
-            <h1 class="title-primary drop-shadow-title">{{$t('homePage.section1.title')}}</h1>
+            <h1 class="hidden title-tertiary sm:title-primary drop-shadow-title">{{$t('homePage.section1.title')}}</h1>
             <TheHomePageSystemCardList class="hidden"/>
         </div>
         <img class="hidden sm:block w-full h-full absolute top-0 left-0" :src="getAssetsFileURL('images/lobby-bg 1.png')" alt="PC背景圖">

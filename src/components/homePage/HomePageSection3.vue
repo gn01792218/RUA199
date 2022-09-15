@@ -2,7 +2,7 @@
     <section id="home-sction3" class="flex-xy-center py-48 relative">
         <div class="max-w-[960px]">
             <article class="w-full relative mb-20">
-                <img class="absolute absolute-x-center w-[310px] top-[-120%] sm:w-auto sm:translate-x-[0px] sm:left-0 bottom-[-25%] z-[1]"
+                <img class="absolute absolute-x-center w-[310px] top-[-120%] sm:w-auto sm:translate-x-[0px] sm:left-0 bottom-[-25%]"
                     :src="getAssetsFileURL('images/amazing-games 1.png')" alt="amazing-game">
                 <div class="sm:h-[143px] sm:w-[60%] ml-auto bg-gradient-1 rounded-[5px] flex-xy-center py-6">
                     <h1 class="title-tertiary text-center">{{$t('homePage.section3.title')}}</h1>
@@ -27,7 +27,7 @@
 </template>
   
 <script setup lang="ts">
-    import ArrowIndecator from '@/components/indecator/ArrowIndecator.vue'
+import ArrowIndecator from '@/components/indecator/ArrowIndecator.vue'
 import { HomePageIndecator } from '@/types/gloable'
 import useUtil from '@/composable/util/useUtil'
 const { getAssetsFileURL } = useUtil()
