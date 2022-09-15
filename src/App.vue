@@ -12,7 +12,3 @@ import TheHeader from '@/components/TheHeader.vue'
 import TheHeaderForMobile from '@/components/TheHeaderForMobile.vue'
 import TheFooter from '@/components/TheFooter.vue'
 </script>
-
-<style>
-
-</style>

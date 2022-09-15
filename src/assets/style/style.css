@@ -1,99 +1,122 @@
-@tailwind base; 
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /* gloable */
-::-webkit-scrollbar{
-    width: 0px;/*竖向滚动条的宽度*/
+::-webkit-scrollbar {
+    width: 0px;
+    /*竖向滚动条的宽度*/
     height: 0px;
 }
+
 /* layOut */
-html{
+html {
     scroll-behavior: smooth;
 }
+
 .page-container {
     @apply h-screen text-center bg-black;
 }
+
 /* Design System */
 /* font */
 .title-primary {
     @apply font-[700] text-[40px];
 }
+
 .title-secondary {
     @apply font-[700] text-[40px];
 }
+
 .title-tertiary {
     @apply font-[700] text-[30px];
 }
+
 .title-small {
     @apply font-[700] text-[18px];
 }
+
 .description {
     @apply font-[400] text-[12px];
 }
+
 /* gradient */
 .bg-gradient-1 {
     background: linear-gradient(180deg, #062746b3 0%, #46bcff80 100%);
 }
+
 /* components */
 /* Btn */
 .base-btn {
     @apply w-[136px] h-[48px] rounded-[3px] text-white;
 }
+
 .primary-btn {
     @apply base-btn bg-[#64C4F9];
 }
+
 .secondary-btn {
     @apply base-btn bg-[#0A4E74];
 }
+
 /* indecate */
 .indecate {
-    @apply w-[10px] h-[10px] rounded-full bg-white cursor-pointer mb-3; 
+    @apply w-[10px] h-[10px] rounded-full bg-white cursor-pointer mb-3;
 }
+
 .indecate.active {
     @apply bg-[#46BDFF]
 }
+
 /* divider */
 .divider-line-base {
     @apply w-full h-[1px];
 }
+
 .divider-line-to-right {
     background: linear-gradient(90deg, #FFE603 0%, #FFFFFF 23.96%, #FFE603 57.81%, #000000 81.25%, #000000 100%);
     @apply divider-line-base;
 }
+
 .divider-line-to-left {
     background: linear-gradient(270deg, #FFE603 0%, #FFFFFF 23.96%, #FFE603 57.81%, #000000 81.25%, #000000 100%);
     @apply divider-line-base;
 }
+
 .divider-line-blue {
     @apply bg-[#46BDFF] w-full h-[1px];
 }
+
 /* TheHeader */
 .the-header {
     @apply max-w-[1000px] h-[90px] mx-auto bg-transparent flex justify-around items-center;
 }
+
 /* cards */
 .system-card {
     @apply w-[304px] h-[420px];
 }
+
 /* transition */
 .headerFade-enter-active,
 .headerFade-leave-active {
-    transition: opacity 0.5s ease;
+    @apply transition-all duration-500 ease-in;
 }
-.headerFade-enter-from{
-    transform: translateX(0);
-}
+
+.headerFade-enter-from,
 .headerFade-leave-to {
-    opacity: 0;
+    @apply opacity-0 translate-x-[500px];
 }
 
 /* util */
 .flex-xy-center {
     @apply flex flex-col justify-center items-center
 }
+
 .absolute-x-center {
     @apply left-1/2 translate-x-[-50%];
 }
+
 .absolute-y-center {
     @apply top-1/2 translate-y-[-50%];
 }
