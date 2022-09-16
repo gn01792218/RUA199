@@ -26,6 +26,7 @@
           slogan:$t('card.systemCard.Android.slogan')
         }" />
         <SystemCard 
+          class="mr-5 sm:mr-0"
           :system-card-obj="{
           bgPath:'images/Artboard 1 3.png',
           logoPath:'images/pwa 1.png',

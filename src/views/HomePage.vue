@@ -1,20 +1,20 @@
 <template>
   <DotIndecator class="fixed right-0 bottom-1/2 z-[2]" />
-  <HomePageSection1/>
+  <TheHomePageSection1/>
   <GradientDivider :to="Direction.RIGHT"/>
-  <HomePageSection2/>
+  <TheHomePageSection2/>
   <GradientDivider :to="Direction.LEFT"/>
-  <HomePageSection3/>
+  <TheHomePageSection3/>
   <GradientDivider :to="Direction.RIGHT"/>
-  <HomePageSection4/>
+  <TheHomePageSection4/>
   <GradientDivider :to="Direction.LEFT"/>
 </template>
 <script setup lang="ts">
 import { Direction } from '@/types/gloable'
-import HomePageSection1 from '@/components/homePage/HomePageSection1.vue'
-import HomePageSection2 from '@/components/homePage/HomePageSection2.vue'
-import HomePageSection3 from '@/components/homePage/HomePageSection3.vue'
-import HomePageSection4 from '@/components/homePage/HomePageSection4.vue'
+import TheHomePageSection1 from '@/components/homePage/TheHomePageSection1.vue'
+import TheHomePageSection2 from '@/components/homePage/TheHomePageSection2.vue'
+import TheHomePageSection3 from '@/components/homePage/TheHomePageSection3.vue'
+import TheHomePageSection4 from '@/components/homePage/TheHomePageSection4.vue'
 import DotIndecator from "@/components/indecator/DotIndecator.vue";
 import GradientDivider from '@/components/GradientDivider.vue'
 </script>
