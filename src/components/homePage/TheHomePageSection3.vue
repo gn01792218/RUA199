@@ -1,7 +1,7 @@
 <template>
     <section id="home-sction3" class="flex-xy-center py-20 md:px-11 lg:px-20 relative">
         <div class="max-w-[960px]">
-            <article class="w-full mt-36 mb-20 flex flex-col sm:flex-row items-center">
+            <article class="w-full lg:mt-36 mb-20 flex flex-col sm:flex-row items-center">
                 <img class="w-[310px] translate-y-[10%] sm:w-[350px] md:w-[430px] lg:w-auto sm:translate-y-[-10%]"
                     :src="getAssetsFileURL('images/amazing-games 1.png')" alt="amazing-game">
                 <div class="sm:h-[143px] sm:w-[600px] sm:ml-[-5%] bg-gradient-1 rounded-[5px] flex-xy-center py-6">
