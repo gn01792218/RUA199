@@ -1,13 +1,8 @@
 <template>
     <div class="flex flex-col">
-        <a class="indecate" :class="[{active : current === HomePageIndecator.SECTION1}]"
-            href="#home-sction1"></a>
-        <a class="indecate" :class="[{active : current === HomePageIndecator.SECTION2}]"
-             href="#home-sction2"></a>
-        <a class="indecate" :class="[{active : current === HomePageIndecator.SECTION3}]"
-             href="#home-sction3"></a>
-        <a class="indecate" :class="[{active : current === HomePageIndecator.SECTION4}]"
-            href="#home-sction4"></a>
+        <a class="indecate" v-for="indecator in Object.values(HomePageIndecator)" :key="indecator" 
+           :class="[{active : current === indecator}]"
+           :href="indecator"></a>
     </div>
 </template>
   
@@ -21,6 +16,4 @@ onMounted(() => {
         regestScrollObserver(document.getElementById(i.replace("#",'')) as HTMLElement,()=>switchIndecator(i))
     }
 })
-
-
 </script>
