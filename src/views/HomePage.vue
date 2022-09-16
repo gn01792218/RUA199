@@ -1,5 +1,5 @@
 <template>
-  <DotIndecator class="fixed right-0 bottom-1/2 z-[2]" />
+  <DotIndecator class="fixed right-[5%] bottom-1/2 z-[2]" />
   <TheHomePageSection1/>
   <GradientDivider :to="Direction.RIGHT"/>
   <TheHomePageSection2/>
