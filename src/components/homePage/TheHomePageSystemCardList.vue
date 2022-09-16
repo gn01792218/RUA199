@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-wrap justify-center mt-10 lg:flex-nowrap">
+    <div class="flex flex-wrap justify-center items-center mt-10 lg:flex-nowrap">
         <SystemCard 
-          class="mr-5 mb-10"
+          class="sm:mr-5 mb-10"
           :system-card-obj="{
           bgPath:'images/Artboard 1 1.png',
           logoPath:'images/apple-logo-transparent copy 1.png',
@@ -11,7 +11,7 @@
           secondaryBtnText:$t('card.systemCard.IOS.secondaryBtnText'),
         }" />
         <SystemCard 
-          class="mr-5 mb-10"
+          class="sm:mr-5 mb-10"
           :system-card-obj="{
           bgPath:'images/Artboard 1 2.png',
           logoPath:'images/Android-Logo-2014-2019 1.png',
@@ -23,7 +23,7 @@
           slogan:$t('card.systemCard.Android.slogan')
         }" />
         <SystemCard 
-          class="mr-5 sm:mr-0"
+          class="sm:mr-0 sm:mr-5 md:mb-10 "
           :system-card-obj="{
           bgPath:'images/Artboard 1 3.png',
           logoPath:'images/pwa 1.png',
