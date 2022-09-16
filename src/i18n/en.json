@@ -6,5 +6,50 @@
         "VIP":"VIP",
         "commonProblem":"Common problem",
         "support":"Support"
+    },
+    "homePage": {
+        "section1": {
+            "title": "The best online slots in Thailand Ruai99"
+        },
+        "section2": {
+            "title": "Ruai99, the best application in Thailand",
+            "description": "With modern HTML5 games Come and play your favorite slot games with us Ruai99."
+        },
+        "section3": {
+            "title": "Amazing game",
+            "description": "We update new games every day. Whether it's slots games, fish shooting games, card games, by all games, we have selected outstanding games, popular games that are easy to play and get real money.",
+            "description1": "Our games offer you more than 2000 slots games for you to enjoy and win a bonus jackpot. Extreme with world-class entertainment The ultimate standard game that can be played on both desktop and mobile. Take the fun wherever and whenever you want. Find a lot of new fun from us.",
+            "description2": "From our developer team We designed it from the basics of the players. We bring all the games to be adjusted and developed continuously. To give you the experience of playing various games at full efficiency The format of the game is easily accessible and perceptible. There are more than 2000 games online and new games are updated. continually added"
+        },
+        "section4": {
+            "title": "Why Ruai99",
+            "description1": "For those who want to play Ruai99 on mobile, you can download and install the app on both IOS and Android systems. You can click on the button below for installation details. For more information You can contact the admin 24 hours a day.",
+            "acent": "See more +",
+            "description2": "Whether in the section of games, slots and many different fish shooting games With new arrivals every week, it can be called pleasing for both slots and fish shooting games. Easy to play fish shooting game and get money fast Easy to kill fish and the most fun Play all day without getting bored With up to 50 fish shooting games and still updating and adding new ones. continuously",
+            "description3": "Ruai99, the number 1 slot app in Thailand, easy to apply, automatic deposit and withdrawal system. with experience We are therefore confident that customers who come to play will receive financial stability and full entertainment. It's like being in a real casino. We promise we will develop the game system. And the service is always better, Ruai99, the largest online gambling app in Thailand."
+        }
+    },
+    "footer": {
+        "title": "Welcome to Ruai99",
+        "description": "And enjoy the best gaming experience. When applying for membership, receive instant news and promotions."
+    },
+    "card":{
+        "systemCard":{
+            "IOS":{
+                "primaryBtnText":"how to install",
+                "secondaryBtnText":"Download now",
+                "description":"Player using iOS system Can load apps easily, withdraw quickly, support iOS 11.0 and above"
+            },
+            "Android":{
+                "primaryBtnText":"how to install",
+                "secondaryBtnText":"Download now",
+                "slogan":"500,000+ Downloaded",
+                "description":"Android players You can easily load the app. Fast deposit and withdrawal, support Android 5.1 and above"
+            },
+            "PWA":{
+                "secondaryBtnText":"play now",
+                "description":"Play through the computer without interruption. Experience amazing graphics."
+            }
+        }
     }
 }

@@ -8,7 +8,7 @@
                 :src="getAssetsFileURL('images/ia_100000469 1.png')" alt="game">
             <article class="w-full sm:w-1/2 py-10">
                 <p class="description pb-5">{{$t('homePage.section4.description1')}}</p>
-                <p class="description text-primary pb-10">{{$t('homePage.section4.acent')}}</p>
+                <p class="description text-primary pb-10 cursor-pointer">{{$t('homePage.section4.acent')}}</p>
                 <p class="description">{{$t('homePage.section4.description2')}}</p>
             </article>
             <div class="w-full sm:w-[58%]">

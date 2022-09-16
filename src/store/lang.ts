@@ -10,7 +10,6 @@ export const state : State = {
   export const mutations = {
     setLang(state:State, payload:Lang) {
       state.lang=payload
-      console.log("vuex更新使用者選擇的語系",state.lang)
     },
   };
   export const getters = {}

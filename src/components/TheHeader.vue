@@ -10,10 +10,11 @@
             <li class="hidden sm:block">
                 <router-link to="/PromotionsPage">{{$t('header.promotion')}}</router-link>
             </li>
-            <li>
+            <li class="flex flex-col items-center">
                 <RouteToHome 
                 :img-path="getAssetsFileURL('images/header-logo 1.png')"
                 />
+                <TheLangSelector/>
             </li>
             <li>
                 <router-link to="/VipPage">{{$t('header.VIP')}}</router-link>
@@ -30,6 +31,7 @@
   
 <script setup lang="ts">
 import RouteToHome from '@/components/RouteToHome.vue'
+import TheLangSelector from '@/components/TheLangSelector.vue'
 import useutil from '@/composable/util/useUtil';
     const { getAssetsFileURL } = useutil()
 </script>

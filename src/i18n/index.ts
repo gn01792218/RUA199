@@ -7,9 +7,9 @@ const i18n = createI18n({
     locale: 'th',
     globalInjection: true,
     messages: {
-      en: en,
-      zn: zh,
-      th: th,
+      'zh': zh,
+      'th': th,
+      'en': en,
     }
   })
   

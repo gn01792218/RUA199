@@ -37,15 +37,18 @@
         "systemCard":{
             "IOS":{
                 "primaryBtnText":"วิธีติดตั้ง",
-                "secondaryBtnText":"ดาวน์โหลด เลย"
+                "secondaryBtnText":"ดาวน์โหลด เลย",
+                "description":"ผู้เล่นที่ใช้ระบบiOS สามารถโหลดแอปได้ง่ายๆ กถอนเรวดเร็ว รองรับ iOS 11.0 ขึ้นไป"
             },
             "Android":{
                 "primaryBtnText":"วิธีติดตั้ง",
                 "secondaryBtnText":"ดาวน์โหลด เลย",
-                "slogan":"500,000+ Downloaded"
+                "slogan":"500,000+ Downloaded",
+                "description":"ผู้เล่นที่ใช้ระบบแอนดรอยด์ สามารถโหลดแอปได้ง่ายๆ ฝากถอนรวดเร็ว รองรับ Android 5.1 ขึ้นไป"
             },
             "PWA":{
-                "secondaryBtnText":"เล่น เลย"
+                "secondaryBtnText":"เล่น เลย",
+                "description":"เล่นผ่านคอมพิวเตอร์ได้ไม่มีสะดุด สัมผัสกับกราฟิกที่น่าทึ่ง"
             }
         }
     }

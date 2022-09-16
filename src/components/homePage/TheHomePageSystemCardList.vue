@@ -6,8 +6,7 @@
           bgPath:'images/Artboard 1 1.png',
           logoPath:'images/apple-logo-transparent copy 1.png',
           systemName:'iOS',
-          description:`ผู้เล่นที่ใช้ระบบiOS สามารถโหลดแอปได้ง่ายๆ 
-                        ฝากถอนเรวดเร็ว รองรับ iOS 11.0 ขึ้นไป`,
+          description:$t('card.systemCard.IOS.description'),
           primaryBtnText:$t('card.systemCard.IOS.primaryBtnText'),
           secondaryBtnText:$t('card.systemCard.IOS.secondaryBtnText'),
         }" />
@@ -18,9 +17,7 @@
           logoPath:'images/Android-Logo-2014-2019 1.png',
           systemName:`Native
                     (Android)`,
-          description:`ผู้เล่นที่ใช้ระบบแอนดรอยด์ 
-                      สามารถโหลดแอปได้ง่ายๆ ฝากถอนรวดเร็ว 
-                      รองรับ Android 5.1 ขึ้นไป`,
+          description:$t('card.systemCard.Android.description'),
           primaryBtnText:$t('card.systemCard.Android.primaryBtnText'),
           secondaryBtnText:$t('card.systemCard.Android.secondaryBtnText'),
           slogan:$t('card.systemCard.Android.slogan')
@@ -32,8 +29,7 @@
           logoPath:'images/pwa 1.png',
           systemName:`Browser
                     Version`,
-          description:`เล่นผ่านคอมพิวเตอร์ได้ไม่มีสะดุด 
-                      สัมผัสกับกราฟิกที่น่าทึ่ง`,
+          description:$t('card.systemCard.PWA.description'),
           secondaryBtnText:$t('card.systemCard.PWA.secondaryBtnText'),
         }" />
       </div>

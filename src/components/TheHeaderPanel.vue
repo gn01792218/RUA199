@@ -24,11 +24,13 @@
             </li>
         </ul>
         <RouteToHome :img-path="getAssetsFileURL('images/header-logo 1.png')" @click="handleHeaderPanel" />
+        <TheLangSelector/>
     </div>
 </template>
   
 <script setup lang="ts">
 import RouteToHome from '@/components/RouteToHome.vue'
+import TheLangSelector from '@/components/TheLangSelector.vue'
 import CloseButtonX from '@/components/CloseButtonX.vue'
 import useHeaderPanel from '@/composable/header/useHeaderPanel'
 import useutil from '@/composable/util/useUtil';
