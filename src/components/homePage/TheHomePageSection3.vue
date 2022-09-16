@@ -13,7 +13,7 @@
             </article>
             <article class="w-full relative">
                 <p class="title-secondary hidden md:block">Over <span class="text-[50px]">2,000+</span>Games</p>
-                <div class="bg-gradient-1 rounded-[5px] p-10 md:p-5 lg:pb-6 lg:px-10 md:h-[143px]">
+                <div class="flex bg-gradient-1 rounded-[5px] p-10 md:p-5 lg:pb-6 lg:px-10 md:h-[143px]">
                     <div class="flex flex-col justify-start items-center mt-10 md:mt-0 sm:flex-row md:pr-24 lg:pr-32">
                         <p class="w-full description mb-5 md:mb-0 sm:mr-2 sm:max-w-[355px]">{{$t('homePage.section3.description1')}}</p>
                         <p class="w-full description sm:max-w-[355px]">{{$t('homePage.section3.description2')}}</p>

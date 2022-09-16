@@ -11,7 +11,7 @@
                 </p>
             </div>
             <div class="flex flex-col">
-                <div class="h-[40px] flex items-center">
+                <div class="h-[40px] px-1 flex items-center">
                     <p class="description text-center">{{systemCardObj.description}}</p>
                 </div>
                 <div class="flex justify-center mt-5">
