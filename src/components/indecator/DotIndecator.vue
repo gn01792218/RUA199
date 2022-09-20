@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col">
+    <div class="hidden sm:flex flex-col">
         <a class="indecate" v-for="indecator in Object.values(HomePageIndecator)" :key="indecator" 
            :class="[{active : current === indecator}]"
            :href="indecator"></a>
