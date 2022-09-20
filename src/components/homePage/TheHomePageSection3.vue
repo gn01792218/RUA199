@@ -1,5 +1,5 @@
 <template>
-    <section id="home-sction3" class="flex-xy-center py-20 md:px-11 lg:px-20 relative">
+    <section id="home-sction3" class="flex-xy-center py-20 md:px-11 lg:px-20 relative lg:h-screen">
         <div class="max-w-[960px]">
             <article class="w-full lg:mt-36 mb-20 flex flex-col sm:flex-row items-center">
                 <img class="w-[310px] translate-y-[10%] sm:w-[350px] md:w-[430px] lg:w-auto sm:translate-y-[-10%]"

@@ -52,6 +52,9 @@ html {
         .absolute-y-center {
             @apply top-1/2 translate-y-[-50%];
         }
+        .img-cover-center {
+            @apply object-cover object-center;
+        }
     }
 }
 

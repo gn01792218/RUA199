@@ -1,5 +1,5 @@
 <template>
-    <section id="home-sction2" class="flex-xy-center py-40 relative">
+    <section id="home-sction2" class="flex-xy-center py-40 relative lg:h-screen">
         <h1 class="title-tertiary w-[300px] text-center sm:w-auto drop-shadow-title sm:title-primary">
             {{$t('homePage.section2.title')}}</h1>
         <img class="w-[330px] sm:w-auto" :src="getAssetsFileURL('images/welcome 1.png')" alt="welcome">

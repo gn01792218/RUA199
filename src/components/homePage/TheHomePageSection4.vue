@@ -1,5 +1,5 @@
 <template>
-    <section id="home-sction4" class="flex-xy-center p-10 sm:p-20 overflow-hidden">
+    <section id="home-sction4" class="flex-xy-center p-10 sm:p-20 overflow-hidden lg:h-screen">
         <div class="max-w-[960px] relative mt-10">
             <p class="title-small xxs:title-tertiary mb-5 sm:title-secondary w-[167px] sm:w-auto"><span
                     class="block sm:inline text-[35px]">500,000+</span>Downloaded</p>

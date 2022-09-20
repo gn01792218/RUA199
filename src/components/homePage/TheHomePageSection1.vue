@@ -1,11 +1,11 @@
 <template>
-    <section id="home-sction1" class="w-full relative md:min-h-[900px] flex flex-col justify-center">
-        <div class="flex-xy-center relative z-[1]">
+    <section id="home-sction1" class="w-full relative md:min-h-[900px] flex flex-col justify-center lg:h-screen">
+        <div class="flex-xy-center relative z-[1] lg:mt-24">
             <h1 class="w-[300px] md:mt-40 lg:mt-0 text-center title-tertiary drop-shadow-title sm:w-auto sm:title-primary">{{$t('homePage.section1.title')}}</h1>
             <TheHomePageSystemCardList class="sm:pt-14"/>
         </div>
-        <img class="hidden sm:block w-full h-full absolute top-0 left-0" :src="getAssetsFileURL('images/lobby-bg 1.png')" alt="PC背景圖">
-        <img class="w-full h-full absolute top-0 left-0 sm:hidden" :src="getAssetsFileURL('images/lobby-mbg 3.png')" alt="手機背景圖">
+        <img class="hidden w-full h-full absolute top-0 left-0 img-cover-center sm:block" :src="getAssetsFileURL('images/lobby-bg 1.png')" alt="PC背景圖">
+        <img class="w-full h-full absolute top-0 left-0 img-cover-center sm:hidden" :src="getAssetsFileURL('images/lobby-mbg 3.png')" alt="手機背景圖">
         <img class="hidden sm:block max-w-[475px] absolute bottom-0" :src="getAssetsFileURL('images/fortune-ox_4 1.png')"
             alt="fortune-ox">
         <img class="hidden sm:block max-w-[475px] absolute bottom-0 right-0"
