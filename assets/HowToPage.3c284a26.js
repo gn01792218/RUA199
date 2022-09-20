@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,h as r}from"./vendor.02c87d77.js";const c={},t={class:"page-container"};function a(s,n){return o(),r("div",t," \u656C\u8ACB\u671F\u5F85 How To Use ")}var i=e(c,[["render",a]]);export{i as default};

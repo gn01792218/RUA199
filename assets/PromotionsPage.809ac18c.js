@@ -1,1 +1,0 @@
-import{_ as o}from"./plugin-vue_export-helper.21dcd24c.js";import{o as e,h as r}from"./vendor.370fe11d.js";const t={},c={class:"page-container"};function n(a,s){return e(),r("div",c," \u656C\u8ACB\u671F\u5F85 Promotion ")}var m=o(t,[["render",n]]);export{m as default};
