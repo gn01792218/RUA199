@@ -4,12 +4,17 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      screens: {
-        '3xs':'280px',
+    screens:{
+      '3xs':'280px',
         '2xs':'320px',
         'xs':'414px',
-      },
+      'sm':'640px',
+        'md':'768px',
+        'lg':'1024px',
+        'xl':'1280px',
+        '2xl':'1536px'
+    },
+    extend: {
       colors: {
         primary: '#46BDFD',
       },

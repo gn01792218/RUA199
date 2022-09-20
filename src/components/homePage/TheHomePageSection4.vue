@@ -4,7 +4,7 @@
             <p class="title-small xxs:title-tertiary mb-5 sm:title-secondary w-[167px] sm:w-auto"><span
                     class="block sm:inline text-[35px]">500,000+</span>Downloaded</p>
             <div class="divider-line-blue w-screen"></div>
-            <img class="absolute w-[150px] 2xs:w-[200px] top-[-3%] right-[-25%] xs:right-[5%] md:w-[330px] sm:top-[25%] sm:right-0 lg:w-auto"
+            <img class="absolute w-[150px] top-[-3%] right-[-25%] 2xs:w-[200px] xs:right-[5%] sm:top-[25%] sm:right-0 md:w-[330px] lg:w-[442px] lg:right-0"
                 :src="getAssetsFileURL('images/ia_100000469 1.png')" alt="game">
             <article class="w-full sm:w-1/2 py-10">
                 <p class="description pb-5">{{$t('homePage.section4.description1')}}</p>
