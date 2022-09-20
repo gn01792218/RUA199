@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black text-white" ref="app">
+  <div class="bg-black text-white" ref="app" @touchmove.prevent @scroll.prevent>
     <TheHeader class="fixed" />
     <TheHeaderForMobile />
     <router-view />
