@@ -2,7 +2,7 @@
     <section id="home-sction1" class="w-full relative md:min-h-[900px] flex flex-col justify-center">
         <div class="flex-xy-center relative z-[1]">
             <h1 class="w-[300px] md:mt-40 lg:mt-0 text-center title-tertiary drop-shadow-title sm:w-auto sm:title-primary">{{$t('homePage.section1.title')}}</h1>
-            <TheHomePageSystemCardList/>
+            <TheHomePageSystemCardList class="sm:pt-14"/>
         </div>
         <img class="hidden sm:block w-full h-full absolute top-0 left-0" :src="getAssetsFileURL('images/lobby-bg 1.png')" alt="PC背景圖">
         <img class="w-full h-full absolute top-0 left-0 sm:hidden" :src="getAssetsFileURL('images/lobby-mbg 3.png')" alt="手機背景圖">

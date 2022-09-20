@@ -5,7 +5,7 @@
         </div>
         <img class="absolute top-[-30px] absolute-x-center" :class="[{'top-[-10px]':systemCardObj.systemName.includes('Browser')}]" :src="getAssetsFileURL(systemCardObj.logoPath)" :alt="systemCardObj.systemName">
         <div class="flex-xy-center">
-            <div class="w-[116px] h-[116px] flex justify-center items-center rounded-full bg-black opacity-70 sm:mb-3  md:w-[90px] md:h-[90px] lg:w-[116px] lg:h-[116px]">
+            <div class="w-[116px] h-[116px] flex justify-center items-center rounded-full bg-black opacity-70 mt-20 sm:mb-3  md:w-[90px] md:h-[90px] lg:w-[116px] lg:h-[116px]">
                 <p class="text-white text-center font-[700]">
                     {{systemCardObj.systemName}}
                 </p>
