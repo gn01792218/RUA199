@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black text-white">
+  <div class="bg-black text-white" ref="app">
     <TheHeader class="fixed" />
     <TheHeaderForMobile />
     <router-view />
@@ -15,4 +15,10 @@ import TheHeader from '@/components/TheHeader.vue'
 import TheHeaderForMobile from '@/components/TheHeaderForMobile.vue'
 import TheFooter from '@/components/TheFooter.vue'
 import TheMobilePanel from '@/components/TheMobilePanel.vue'
+import useHeader from '@/composable/header/useHeader'
+import { onMounted } from 'vue'
+const { registryScroll } = useHeader()
+onMounted(() => {
+  registryScroll()
+})
 </script>

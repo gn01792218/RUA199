@@ -1,6 +1,6 @@
 <template>
-    <nav class="hidden md:block w-full py-4 z-[2]">
-        <ul class="the-header">
+    <nav class="the-header" :class="[headerColor]" ref="headerEle">
+        <ul class="the-header-ul">
             <li>
                 <router-link to="/HowToPage">{{$t('header.howToUse')}}</router-link>
             </li>
@@ -33,5 +33,7 @@
 import RouteToHome from '@/components/RouteToHome.vue'
 import TheLangSelector from '@/components/TheLangSelector.vue'
 import useutil from '@/composable/util/useUtil';
-    const { getAssetsFileURL } = useutil()
+import useHeader from '@/composable/header/useHeader'
+const { getAssetsFileURL } = useutil()
+const { headerColor, headerEle } = useHeader()
 </script>

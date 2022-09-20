@@ -108,7 +108,10 @@ html {
 
 /* TheHeader */
 .the-header {
-    @apply max-w-[1000px] h-[90px] mx-auto bg-transparent flex justify-around items-center;
+    @apply w-full hidden py-4 z-[2] md:block;
+}
+.the-header-ul {
+    @apply max-w-[1000px] mx-auto flex justify-around items-center;
 }
 
 /* transition */
