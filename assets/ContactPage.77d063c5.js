@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,h as o}from"./vendor.79f0d65f.js";const c={},a={class:"page-container"};function r(n,s){return t(),o("div",a," \u656C\u8ACB\u671F\u5F85 Contact ")}var i=e(c,[["render",r]]);export{i as default};
