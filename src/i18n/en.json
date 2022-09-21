@@ -38,17 +38,22 @@
             "IOS":{
                 "primaryBtnText":"how to install",
                 "secondaryBtnText":"Download now",
-                "description":"Player using iOS system Can load apps easily, withdraw quickly, support iOS 11.0 and above"
+                "description":"Player using iOS system Can load apps easily, ",
+                "description2":"withdraw quickly, support iOS 11.0 and above"
             },
             "Android":{
                 "primaryBtnText":"how to install",
                 "secondaryBtnText":"Download now",
                 "slogan":"500,000+ Downloaded",
-                "description":"Android players You can easily load the app. Fast deposit and withdrawal, support Android 5.1 and above"
+                "description":"Android players You can easily load the app.",
+                "description2":"Fast deposit and withdrawal,",
+                "description3":"support Android 5.1 and above"
+                
             },
             "PWA":{
                 "secondaryBtnText":"play now",
-                "description":"Play through the computer without interruption. Experience amazing graphics."
+                "description":"Play through the computer without interruption.",
+                "description2":"Experience amazing graphics."
             }
         }
     }

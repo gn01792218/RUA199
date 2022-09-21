@@ -16,7 +16,13 @@ import TheHeaderForMobile from '@/components/TheHeaderForMobile.vue'
 import TheFooter from '@/components/TheFooter.vue'
 import TheMobilePanel from '@/components/TheMobilePanel.vue'
 import useHeader from '@/composable/header/useHeader'
-import { onMounted } from 'vue'
+import { onMounted,computed,watch } from 'vue'
+// import { useI18n } from 'vue-i18n'
+// const { t } = useI18n()
+// const test = computed(()=>t('card.systemCard.Android.description3'))
+// watch(test,()=>{
+//   console.log(test.value)
+// })
 const { registryScroll } = useHeader()
 onMounted(() => {
   registryScroll()

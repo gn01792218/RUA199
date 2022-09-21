@@ -40,5 +40,4 @@
   
 <script setup lang="ts">
 import SystemCard from "@/components/card/SystemCard.vue"
-
 </script>

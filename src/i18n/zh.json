@@ -38,17 +38,21 @@
             "IOS":{
                 "primaryBtnText":"如何安裝",
                 "secondaryBtnText":"馬上下載",
-                "description":"使用IOS系統的播放器可輕鬆下載應用，快速退出，支持IOS 11.0 及以上版本"
+                "description":"使用IOS系統的播放器可輕鬆下載應用，快速退出",
+                "description2":"支持IOS 11.0 及以上版本"
             },
             "Android":{
                 "primaryBtnText":"如何安裝",
                 "secondaryBtnText":"馬上下載",
                 "slogan":"500,000+ Downloaded",
-                "description":"安卓播放器可讓您輕鬆加載應用程序。快速存取款，支持Android 5.1 及以上版本"
+                "description":"安卓播放器可讓您輕鬆加載應用程序。",
+                "description2":"快速存取款，",
+                "description3":"支持Android 5.1 及以上版本"
             },
             "PWA":{
                 "secondaryBtnText":"馬上玩",
-                "description":"不間斷地玩電腦。體驗驚人的圖形"
+                "description":"不間斷地玩電腦",
+                "description2":"體驗驚人的圖形"
             }
         }
     }

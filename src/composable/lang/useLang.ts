@@ -1,13 +1,15 @@
 import { ref, onMounted } from 'vue'
 import { Lang } from '@/types/lang'
-import i18n from "@/i18n/index";
+import { useI18n } from 'vue-i18n'
 const currentLang = ref<Lang>(Lang.th)
 
 export default function useLang() {
+    const { locale } = useI18n({ useScope: 'global' })
+
     function switchLang(lang: Lang) {
         currentLang.value = lang
         localStorage.setItem('lang', JSON.stringify(lang))
-        i18n.global.locale = lang
+        locale.value = lang
     }
     function getLocalLang() {
         const locaLang = localStorage.getItem('lang')?.replaceAll('"', "")
@@ -16,11 +18,10 @@ export default function useLang() {
                 currentLang.value = Lang.en
                 break;
             case "zh":
-                console.log('zh')
                 currentLang.value = Lang.zh
                 break;
         }
-            i18n.global.locale =  currentLang.value
+            locale.value = currentLang.value
     }
     onMounted(() => {
         getLocalLang()
