@@ -1,11 +1,14 @@
 export interface SystemCardObj {
-    bgPath:string,
-    logoPath:string,
-    systemName:string,
-    description?:string,
-    primaryBtnText?:string,
-    secondaryBtnText?:string,
-    slogan?:string,
+    
+    // bgPath:string,
+    // logoPath:string,
+    // systemName:string,
+    // systemName2?:string,
+    // description?:string,
+    // primaryBtnText?:string,
+    // secondaryBtnText?:string,
+    // slogan?:string,
+    [propName:string]:string,
 }
 export enum HomePageIndecator {
     SECTION1 = "#home-sction1",

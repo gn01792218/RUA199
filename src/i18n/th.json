@@ -36,19 +36,28 @@
     "card":{
         "systemCard":{
             "IOS":{
+                "systemName":"iOS",
                 "primaryBtnText":"วิธีติดตั้ง",
                 "secondaryBtnText":"ดาวน์โหลด เลย",
-                "description":"ผู้เล่นที่ใช้ระบบiOS สามารถโหลดแอปได้ง่ายๆ กถอนเรวดเร็ว รองรับ iOS 11.0 ขึ้นไป"
+                "description":"ผู้เล่นที่ใช้ระบบiOS สามารถโหลดแอปได้ง่ายๆ",
+                "description2":"ฝากถอนเรวดเร็ว รองรับ iOS 11.0 ขึ้นไป"
             },
             "Android":{
+                "systemName":"Native",
+                "systemName2":"(Android)",
                 "primaryBtnText":"วิธีติดตั้ง",
                 "secondaryBtnText":"ดาวน์โหลด เลย",
                 "slogan":"500,000+ Downloaded",
-                "description":"ผู้เล่นที่ใช้ระบบแอนดรอยด์ สามารถโหลดแอปได้ง่ายๆ ฝากถอนรวดเร็ว รองรับ Android 5.1 ขึ้นไป"
+                "description":"ผู้เล่นที่ใช้ระบบแอนดรอยด์",
+                "description2":"สามารถโหลดแอปได้ง่ายๆ ฝากถอนรวดเร็ว",
+                "description3":"รองรับ Android 5.1 ขึ้นไป"
             },
             "PWA":{
+                "systemName":"Browser Version",
                 "secondaryBtnText":"เล่น เลย",
-                "description":"เล่นผ่านคอมพิวเตอร์ได้ไม่มีสะดุด สัมผัสกับกราฟิกที่น่าทึ่ง"
+                "description":"เล่นผ่านคอมพิวเตอร์ได้ไม่มีสะดุด",
+                "description2":"สัมผัสกับกราฟิกที่น่าทึ่ง"
+
             }
         }
     }

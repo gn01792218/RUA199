@@ -4,15 +4,15 @@
             <article class="w-full lg:mt-36 mb-20 flex flex-col sm:flex-row items-center">
                 <img class="w-[310px] translate-y-[10%] sm:w-[350px] md:w-[430px] lg:w-auto sm:translate-y-[-10%]"
                     :src="getAssetsFileURL('images/amazing-games 1.png')" alt="amazing-game">
-                <div class="sm:h-[143px] sm:w-[600px] sm:ml-[-5%] bg-gradient-1 rounded-[5px] flex-xy-center py-6">
-                    <div class="w-[50%] text-center sm:text-left">
+                <div class="sm:h-[143px] sm:w-[600px] sm:ml-[-5%] bg-gradient-1 rounded-[5px] flex flex-col justify-center items-center items-start py-6">
+                    <div class="w-[50%] text-left">
                         <h1 class="title-tertiary">{{$t('homePage.section3.title')}}</h1>
                         <p class="description">{{$t('homePage.section3.description')}}</p>
                     </div>
                 </div>
             </article>
             <article class="w-full relative">
-                <p class="title-secondary hidden md:block">Over <span class="text-[50px]">2,000+</span>Games</p>
+                <p class="title-secondary hidden md:block">Over <span class="text-[60px]">2,000+</span>Games</p>
                 <div class="flex bg-gradient-1 rounded-[5px] p-10 md:p-5 lg:pb-6 lg:px-10 md:h-[143px]">
                     <div class="flex flex-col justify-start items-center mt-10 md:mt-0 sm:flex-row md:pr-24 lg:pr-32">
                         <p class="w-full description mb-5 md:mb-0 sm:mr-2 sm:max-w-[355px]">{{$t('homePage.section3.description1')}}</p>
