@@ -1,0 +1,6 @@
+/* -------------------------------
+layout
+------------------------------- */
+.page-container {
+    @apply h-screen text-center bg-black;
+}

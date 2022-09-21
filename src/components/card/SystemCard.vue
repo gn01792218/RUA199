@@ -1,6 +1,6 @@
 <template>
     <div class="w-[300px] h-[289px] sm:h-[420px] relative flex flex-col justify-end pb-10">
-        <div class="w-full h-full overflow-hidden absolute z-[-1] left-0 top-0 rounded-md">
+        <div class="wh-full overflow-hidden absolute z-[-1] left-0 top-0 rounded-md">
             <img class="w-full" :src="getAssetsFileURL(systemCardObj.bgPath)" :alt="systemCardObj.systemName">
         </div>
         <img class="absolute top-[-30px] absolute-x-center" :class="[{'top-[-10px]':systemCardObj.systemName.includes('Browser')}]" :src="getAssetsFileURL(systemCardObj.logoPath)" :alt="systemCardObj.systemName">

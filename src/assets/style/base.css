@@ -1,0 +1,12 @@
+/* -------------------------------
+global
+------------------------------- */
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    @apply w-0 h-0
+}
+body {
+    font-family: 'Roboto';
+}

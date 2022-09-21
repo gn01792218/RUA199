@@ -1,0 +1,22 @@
+@layer utilities {
+    @variants responsive {
+        /* util */
+        .wh-full {
+            @apply w-full h-full
+        }
+        .flex-xy-center {
+            @apply flex flex-col justify-center items-center
+        }
+
+        .absolute-x-center {
+            @apply left-1/2 translate-x-[-50%];
+        }
+
+        .absolute-y-center {
+            @apply top-1/2 translate-y-[-50%];
+        }
+        .img-cover-center {
+            @apply object-cover object-center;
+        }
+    }
+}

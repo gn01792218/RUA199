@@ -1,0 +1,78 @@
+/* -------------------------------
+design system
+------------------------------- */
+@layer utilities {
+    @variants responsive {
+        /* font */
+        .title-primary {
+            @apply font-[700] text-[40px];
+        }
+
+        .title-secondary {
+            @apply font-[700] text-[40px];
+        }
+
+        .title-tertiary {
+            @apply font-[700] text-[30px];
+        }
+
+        .title-small {
+            @apply font-[700] text-[18px];
+        }
+
+        .description {
+            @apply font-[400] text-[12px];
+        }
+    }
+}
+/* -------------------------------
+components
+------------------------------- */
+/* Btn */
+.base-btn {
+    @apply w-[136px] h-[48px] rounded-[3px] text-white;
+}
+
+.primary-btn {
+    @apply base-btn bg-[#64C4F9];
+}
+
+.secondary-btn {
+    @apply base-btn bg-[#0A4E74];
+}
+/* gradient */
+.bg-gradient-1 {
+    background: linear-gradient(180deg, #062746b3 0%, #46bcff80 100%);
+}
+
+.bg-gradient-2 {
+    background: linear-gradient(360deg, #040e28e6 0%, #3287b9e6 97.92%, #65c6ffe6 100%);
+}
+
+/* indecate */
+.indecate {
+    @apply w-[10px] h-[10px] rounded-full bg-white cursor-pointer mb-3;
+}
+
+.indecate.active {
+    @apply bg-[#46BDFF]
+}
+
+/* divider */
+.divider-line-base {
+    @apply w-full h-[1px];
+}
+
+.divider-line-to-right {
+    background: linear-gradient(90deg, #FFE603 0%, #FFFFFF 23.96%, #FFE603 57.81%, #000000 81.25%, #000000 100%);
+    @apply divider-line-base;
+}
+
+.divider-line-to-left {
+    background: linear-gradient(270deg, #FFE603 0%, #FFFFFF 23.96%, #FFE603 57.81%, #000000 81.25%, #000000 100%);
+    @apply divider-line-base;
+}
+
+.divider-line-blue {
+    @apply bg-[#46BDFF] w-full h-[1px];
+}
