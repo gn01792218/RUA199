@@ -1,32 +1,37 @@
-.home-scetion1-wrap {
-    @apply w-full relative md:min-h-[900px] flex flex-col justify-center lg:h-screen;
-}
-.home-section1-container {
-    @apply flex-xy-center relative z-[1] lg:mt-24;
-}
-.home-section1-title {
-    @apply w-[300px] md:mt-40 lg:mt-0 text-center title-tertiary drop-shadow-title sm:w-auto sm:title-primary
-}
-.pc-bg {
-    @apply hidden sm:block
-}
-.mobile-bg {
-    @apply sm:hidden
-}
-.home-ox {
-    @apply hidden max-w-[475px] absolute bottom-0 sm:block;
-}
-.home-lady {
-    @apply hidden max-w-[475px] absolute bottom-0 right-0 sm:block;
-}
-.home-section1-arror-wrap {
-    @apply w-full relative my-10;
-}
-.home-section1-arror {
-    @apply absolute absolute-x-center absolute-y-center
-}
-
-/* 共用 */
-.home-section1-bg {
-    @apply wh-full absolute img-cover-center
+@import '../util.css';
+@import '../designSystem.css';
+@tailwind components;
+@layer components {
+    .home-scetion1-wrap {
+        @apply w-full relative md:min-h-[900px] flex flex-col justify-center lg:h-screen;
+    }
+    .home-section1-container {
+        @apply flex-xy-center relative z-[1] lg:mt-24;
+    }
+    .home-section1-title {
+        @apply w-[300px] md:mt-40 lg:mt-0 text-center title-tertiary drop-shadow-title sm:w-auto sm:title-primary
+    }
+    .pc-bg {
+        @apply hidden sm:block
+    }
+    .mobile-bg {
+        @apply sm:hidden
+    }
+    .home-ox {
+        @apply hidden max-w-[475px] absolute bottom-0 sm:block;
+    }
+    .home-lady {
+        @apply hidden max-w-[475px] absolute bottom-0 right-0 sm:block;
+    }
+    .home-section1-arror-wrap {
+        @apply w-full relative my-10;
+    }
+    .home-section1-arror {
+        @apply absolute absolute-x-center absolute-y-center
+    }
+    
+    /* 共用 */
+    .home-section1-bg {
+        @apply wh-full absolute img-cover-center
+    }
 }

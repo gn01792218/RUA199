@@ -4,6 +4,3 @@
 @import './designSystem.css';
 @import './components/theHeader.css';
 @import './components/homePageSection1.css';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

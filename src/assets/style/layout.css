@@ -1,6 +1,9 @@
-/* -------------------------------
-layout
-------------------------------- */
-.page-container {
-    @apply h-screen text-center bg-black;
+@tailwind base;
+@layer base {
+    /* -------------------------------
+    layout
+    ------------------------------- */
+    .page-container {
+        @apply h-screen text-center bg-black;
+    }
 }
